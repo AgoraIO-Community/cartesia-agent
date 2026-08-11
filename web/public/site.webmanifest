@@ -1,0 +1,12 @@
+{
+  "name": "Agora Cartesia Voice Agent",
+  "short_name": "Cartesia Agent",
+  "description": "Agora voice agent with Sarvam en-IN recognition and Cartesia Sonic-2 Skylar speech.",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#e24a2a",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
