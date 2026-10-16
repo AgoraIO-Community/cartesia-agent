@@ -17,7 +17,7 @@ Browser -> Next.js /api/* rewrites -> FastAPI -> Agora Conversational AI
 ```text
 User audio -> SarvamSTT(language=SARVAM_LANGUAGE or en-IN)
            -> managed OpenAI(model=gpt-4o-mini)
-           -> CartesiaTTS(model=sonic-2, wss://api.cartesia.ai, en, 24000 Hz)
+           -> CartesiaTTS(model=sonic-3.6, wss://api.cartesia.ai, en, 24000 Hz)
            -> RTC agent audio
 ```
 

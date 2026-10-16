@@ -73,7 +73,7 @@ If `AGENT_BACKEND_URL` is unset/empty, **no rewrites register** — the client c
 
 ## Fixed Pipeline (server/src/agent.py)
 
-Every session uses Sarvam STT (`SARVAM_LANGUAGE`, default `en-IN`), managed OpenAI `gpt-4o-mini`, and Cartesia Sonic-2 TTS (`wss://api.cartesia.ai`, `en`, 24 kHz). There is no runtime provider selection.
+Every session uses Sarvam STT (`SARVAM_LANGUAGE`, default `en-IN`), managed OpenAI `gpt-4o-mini`, and Cartesia Sonic 3.6 TTS (`wss://api.cartesia.ai`, `en`, 24 kHz). There is no runtime provider selection.
 
 Agent parameters: `data_channel="rtm"`, `enable_error_message=True`, `enable_metrics=True`. Advanced features: `{"enable_rtm": True, "enable_tools": True}`. Session options: `enable_string_uid=False`, `idle_timeout=30`, `expires_in=3600`.
 

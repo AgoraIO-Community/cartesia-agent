@@ -2,7 +2,7 @@
 
 A standalone Agora Conversational AI project with a fixed voice pipeline:
 
-`Sarvam STT (en-IN by default) -> managed OpenAI gpt-4o-mini -> Cartesia Sonic-2 TTS (English, 24 kHz)`
+`Sarvam STT (en-IN by default) -> managed OpenAI gpt-4o-mini -> Cartesia Sonic 3.6 TTS (English, 24 kHz)`
 
 The Next.js client provides RTC audio, RTM transcripts, agent state, metrics, and controls. The Python FastAPI service generates Agora tokens and owns the agent lifecycle and vendor credentials.
 
@@ -25,7 +25,7 @@ Use [`server/.env.example`](server/.env.example) as the variable reference. Keep
 | `SARVAM_LANGUAGE` | No | `en-IN` | Sarvam recognition language |
 | `CARTESIA_API_KEY` | Yes | | Cartesia TTS authentication |
 | `CARTESIA_VOICE_ID` | Yes | | Cartesia voice identifier |
-| `CARTESIA_MODEL_ID` | No | `sonic-2` | Cartesia model identifier |
+| `CARTESIA_MODEL_ID` | No | `sonic-3.6` | Cartesia model identifier |
 | `AGENT_GREETING` | No | Built in | First agent utterance |
 | `PORT` | No | `8001` | FastAPI port |
 | `AGENT_BACKEND_URL` | Web deploy | | FastAPI URL used by Next rewrites |

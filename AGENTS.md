@@ -25,7 +25,7 @@ The sections below (Start Here, Patterns, Anti-Patterns, etc.) remain the canoni
 - Backend: Python FastAPI in `server`
 - Web API facade: Next rewrites in `web/next.config.ts`
 - Auth: Token007 generated from `AGORA_APP_ID` and `AGORA_APP_CERTIFICATE`
-- Agent config: fixed Sarvam STT, managed OpenAI `gpt-4o-mini`, and Cartesia Sonic-2 TTS pipeline
+- Agent config: fixed Sarvam STT, managed OpenAI `gpt-4o-mini`, and Cartesia Sonic 3.6 TTS pipeline
 
 ## Supported Modes
 

@@ -106,7 +106,7 @@ def test_start_wires_fixed_pipeline_and_returns_shape(fake_env, monkeypatch):
         "params": {
             "api_key": "test-cartesia-key",
             "voice": {"mode": "id", "id": "test-cartesia-voice"},
-            "model_id": "sonic-2",
+            "model_id": "sonic-3.6",
             "base_url": "wss://api.cartesia.ai",
             "language": "en",
             "output_format": {"container": "raw", "sample_rate": 24000},

@@ -41,7 +41,7 @@ SARVAM_API_KEY=your_sarvam_api_key
 SARVAM_LANGUAGE=en-IN
 CARTESIA_API_KEY=your_cartesia_api_key
 CARTESIA_VOICE_ID=your_cartesia_voice_id
-CARTESIA_MODEL_ID=sonic-2
+CARTESIA_MODEL_ID=sonic-3.6
 AGENT_GREETING=Hi there! I'm Ada, your virtual assistant from Agora. How can I help?
 PORT=8001
 ```
@@ -61,7 +61,7 @@ AGENT_BACKEND_URL=http://localhost:8001
 | `SARVAM_LANGUAGE`        | Python (server)      | No       | Defaults to `en-IN`.                                                   |
 | `CARTESIA_API_KEY`       | Python (server)      | Yes      | Cartesia TTS authentication.                                          |
 | `CARTESIA_VOICE_ID`      | Python (server)      | Yes      | Cartesia voice identifier.                                            |
-| `CARTESIA_MODEL_ID`      | Python (server)      | No       | Defaults to `sonic-2`.                                                 |
+| `CARTESIA_MODEL_ID`      | Python (server)      | No       | Defaults to `sonic-3.6`.                                                 |
 | `AGENT_GREETING`         | Python (server)      | No       | Optional first utterance.                                             |
 | `PORT`                   | Python (server)      | No       | Default `8001` (`server.py`).                                          |
 | `AGENT_BACKEND_URL`      | Next build (web)     | Yes for rewrites | Empty/missing → no `/api/*` rewrites registered. Required by `web/scripts/doctor.ts`. |

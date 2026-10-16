@@ -6,7 +6,7 @@ FastAPI backend for the standalone Agora Cartesia voice agent.
 
 - STT: `SarvamSTT`, `SARVAM_LANGUAGE=en-IN` by default
 - LLM: Agora-managed `OpenAI`, model `gpt-4o-mini`
-- TTS: `CartesiaTTS`, `CARTESIA_MODEL_ID=sonic-2` by default, `wss://api.cartesia.ai`, language `en`, sample rate `24000`
+- TTS: `CartesiaTTS`, `CARTESIA_MODEL_ID=sonic-3.6` by default, `wss://api.cartesia.ai`, language `en`, sample rate `24000`
 
 The pipeline is fixed. `/startAgent` does not accept a provider or profile field.
 
