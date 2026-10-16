@@ -16,7 +16,7 @@ agent = (
     .with_tts(CartesiaTTS(
         api_key=cartesia_key,
         voice_id=cartesia_voice_id,
-        model_id="sonic-2",
+        model_id="sonic-3.6",
         base_url="wss://api.cartesia.ai",
         language="en",
         sample_rate=24000,
@@ -25,7 +25,7 @@ agent = (
 ```
 
 - `SARVAM_LANGUAGE` overrides the STT language; default is `en-IN`.
-- `CARTESIA_MODEL_ID` overrides the TTS model; default is `sonic-2`.
+- `CARTESIA_MODEL_ID` overrides the TTS model; default is `sonic-3.6`.
 - Managed OpenAI needs no browser or server OpenAI API key.
 - `SARVAM_API_KEY`, `CARTESIA_API_KEY`, and `CARTESIA_VOICE_ID` are required during `Agent` initialization.
 

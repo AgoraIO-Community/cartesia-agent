@@ -65,7 +65,7 @@ class Agent:
         self.sarvam_language = os.getenv("SARVAM_LANGUAGE", "en-IN")
         self.cartesia_api_key = _required_env("CARTESIA_API_KEY")
         self.cartesia_voice_id = _required_env("CARTESIA_VOICE_ID")
-        self.cartesia_model_id = os.getenv("CARTESIA_MODEL_ID", "sonic-2")
+        self.cartesia_model_id = os.getenv("CARTESIA_MODEL_ID", "sonic-3.6")
 
         self.client = AsyncAgora(
             area=Area.US,

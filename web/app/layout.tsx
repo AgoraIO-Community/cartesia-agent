@@ -15,7 +15,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'Cartesia Voice Agent | Agora Conversational AI',
-  description: 'A real-time Agora voice agent with Sarvam en-IN recognition and Cartesia Sonic-2 Skylar speech.',
+  description: 'A real-time Agora voice agent with Sarvam en-IN recognition and Cartesia Sonic 3.6 Skylar speech.',
   icons: {
     icon: [
       { url: '/favicon.ico' },
